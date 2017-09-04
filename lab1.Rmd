@@ -6,7 +6,7 @@ output:
   html_document: default
 ---
 
-```{r setup, include = FALSE, cache = TRUE}
+```{r setup, include = FALSE, cache = FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
