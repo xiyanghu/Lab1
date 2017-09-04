@@ -6,7 +6,7 @@ output:
   html_document: default
 ---
 
-```{r setup, include = FALSE}
+```{r setup, include = FALSE, cache = TRUE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
@@ -52,7 +52,7 @@ data(College)
 
 This loads the dataframe `College`.  Note you can always see the content of any `R` object by simply typing its name.
 ```{r}
-College
+head(College)
 ```
 
 
